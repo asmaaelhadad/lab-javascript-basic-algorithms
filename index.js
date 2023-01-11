@@ -18,3 +18,32 @@ else if (y=x){console.log(`Wow, you both have equally long names,  ${y} characte
 else {console.log('undefined');}
 
 // Iteration 3: Loops
+
+
+let hAcker1 = hacker1.toUpperCase();
+
+let uppercase= "" ;
+for (let i =0; i< hAcker1.length ; i++ ) {
+  uppercase += hAcker1[i] + " ";
+   } 
+console.log(uppercase) ;
+
+
+let z= hacker2.split("").reverse().join("") ;
+console.log(z) ;
+
+
+if (hacker1 > hacker2) {
+
+  console.log("The driver's name goes first") ;
+}
+else if (hacker1 < hacker2) {
+
+  console.log("Yo, the navigator goes first definitely.") ;
+}
+
+else if (hacker1 == hacker2) {
+
+  console.log(" What?! You both have the same name?") ;
+}
+
